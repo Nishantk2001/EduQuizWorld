@@ -1,0 +1,261 @@
+ /*@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Diplomata&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Diplomata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Diplomata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yellowtail&display=swap');
+ /* Resetting default margin and padding */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px 20px 20px 20px ;
+    font-family: "poppins","sans-serif";
+    
+}
+
+/* Styling the navbar */
+.header{
+display: flex;
+justify-content: space-between;
+margin-left: 20px;
+margin-right: 20px;
+background-color: #BC7FCD;
+padding: 10px 20px 10px 20px;
+}
+.logo{
+   
+}
+ .logo h1{
+    font-family: "Bungee Inline", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 800;
+    color:#fff;
+    background-color: #FFC100;
+    color:#C40C0C;
+    padding: 1px 5px 1px 5px;
+    border-radius: 5px;
+} 
+.logo p{
+    color:#fff;
+    font-weight: 600;
+    text-align: center;
+}
+.slogan{
+    text-align: center;
+}
+.slogan>h4{
+    margin-top: 20px;
+    font-family: "Yellowtail", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: normal;
+    color:#333;
+    
+
+}
+.navbar {
+    display: flex;;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px ;
+    background-color: #FFC100;
+   
+}
+.search{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    color:#333;
+}
+.search input{
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.links{
+display: flex;
+margin-right: 200px;
+gap: 20px;
+text-transform: uppercase;
+
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    color:#333;
+    font-weight: 600;
+    /* padding: 10px 20px; */
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Styling the main container */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto;
+    margin: 0px 20px 0px 20px ;
+    gap:20px;
+    background-color: #A1C398;
+      /* max-width: 1200px; */
+}
+
+.main-container .box-1 {
+    flex-basis: 50%;
+    
+}
+.box-1 button{
+    width:100%;
+    position: relative;
+    display: inline-block;
+    margin-top: 1px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box-1 button:hover{
+    background-color: #0056b3;
+}
+.box-1 button:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.main-container .box-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    flex-basis: 50%; 
+     padding: 10px;
+    justify-content: center;
+}
+.board{
+    display: flex;
+    width: 140px;
+    height: 120px;
+    background: linear-gradient(180deg, hsla(190, 97%, 42%, 1) 61%, hsla(216, 18%, 16%, 1) 96%);   
+}
+.inner-board{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 90px; 
+    margin-top:10px;
+    margin-left: 10px;
+    background-color: #FFC100;
+    text-transform: uppercase;
+}
+.main-container .box-2 {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Basic styles for the monitor */
+.monitor {
+    width: 90%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Styling for the screen */
+.screen {
+    width: calc(100% - 20px); /* Adjusted width for the border */
+    height: calc(80% - 20px); /* Adjusted height for the border */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px solid #333; 
+    border-bottom: 30px solid #333;
+    text-align: center;
+    background: linear-gradient(180deg, hsla(190, 97%, 42%, 1) 50%, hsla(0, 0%, 100%, 1) 100%);
+}
+.screen h1{
+    font-family: "Bungee Inline", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 50px;
+    font-size: 50px;
+    color:#C40C0C;
+}
+.stand {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent; /* Adjust triangle size */
+    border-right: 50px solid transparent; /* Adjust triangle size */
+    border-top: 100px solid #333; 
+    position: absolute;
+    transform: rotate(180deg);
+    margin-top: -33px;
+    /* z-index: -1; */
+    left: calc(50% - 50px);
+   
+}
+.subject{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -25px;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.sub-board{
+    display: flex;
+    width: 180px;
+    height: 130px;
+    background: linear-gradient(180deg, hsla(190, 97%, 42%, 1) 61%, hsla(216, 18%, 16%, 1) 96%);}
+.subject-inner-board{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 100px; 
+    margin-top:10px;
+    margin-left: 10px;
+    background-color: #FFC100;
+    text-transform: uppercase;
+}
+.green{
+    background: linear-gradient(to bottom, #33cc33 0%, #ffffff 100%);
+}
+.blue{
+    background: linear-gradient(to bottom, #3333ff 0%, #ffffff 100%);
+}
+.pink{
+    background: linear-gradient(to bottom, #ff33cc 0%, #ffffff 100%);
+}
+.peach{
+    background: linear-gradient(to bottom, #ffcc33 0%, #ffffff 100%);
+}
+.orange{
+    background: linear-gradient(to bottom, #ff9900 0%, #ffffff 100%);
+}
+.navy{
+    background: linear-gradient(to bottom, #000080 0%, #ffffff 100%);
+}
