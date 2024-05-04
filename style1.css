@@ -9,7 +9,6 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0px 20px 20px 20px ;
     font-family: "poppins","sans-serif";
     
 }
@@ -18,14 +17,10 @@ body{
 .header{
 display: flex;
 justify-content: space-between;
-margin-left: 20px;
-margin-right: 20px;
 background-color: #BC7FCD;
-padding: 10px 20px 10px 20px;
+padding: 15px 40px 15px 40px;
 }
-.logo{
-   
-}
+
  .logo h1{
     font-family: "Bungee Inline", sans-serif;
     font-style: normal;
@@ -61,7 +56,6 @@ padding: 10px 20px 10px 20px;
     color: #fff;
     padding: 10px 0;
     justify-content: space-between;
-    margin: 0px 20px 0px 20px ;
     background-color: #FFC100;
    
 }
@@ -75,13 +69,13 @@ padding: 10px 20px 10px 20px;
 .search input{
     border: none;
     outline: none;
-    padding: 8px 20px;
+    padding: 4px 10px;
     font-size: 18px;
     border-radius: 5px;
 }
 .links{
 display: flex;
-margin-right: 200px;
+margin-right: 20px;
 gap: 20px;
 text-transform: uppercase;
 
@@ -92,11 +86,11 @@ text-transform: uppercase;
     font-size: 18px;
     color:#333;
     font-weight: 600;
-    /* padding: 10px 20px; */
+    
 }
 
 .navbar a:hover {
-    background-color: #555;
+   color: #fff
 }
 
 /* Styling the main container */
@@ -104,10 +98,9 @@ text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     margin: 5px auto;
-    margin: 0px 20px 0px 20px ;
-    gap:20px;
+     gap:20px;
     background-color: #A1C398;
-      /* max-width: 1200px; */
+    
 }
 
 .main-container .box-1 {
@@ -172,14 +165,15 @@ text-transform: uppercase;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0px -70px 0px -30px;
 }
 
 /* Basic styles for the monitor */
 .monitor {
     width: 90%;
-    height: 400px;
-    position: relative;
+    height: 450px;
     overflow: hidden;
+    position: relative;
 }
 
 /* Styling for the screen */
@@ -189,19 +183,29 @@ text-transform: uppercase;
     padding: 20px;
     box-sizing: border-box;
     border: 10px solid #333; 
-    border-bottom: 30px solid #333;
     text-align: center;
+    border-bottom: 30px solid #333;
     background: linear-gradient(180deg, hsla(190, 97%, 42%, 1) 50%, hsla(0, 0%, 100%, 1) 100%);
 }
 .screen h1{
-    font-family: "Bungee Inline", sans-serif;
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 800;
     margin-top: 50px;
     font-size: 50px;
     color:#C40C0C;
+    text-align: center;
+   
+ 
 }
+ /* .taskbar{
+    width:100%;
+    height: 30px;
+    background-color: #BC7FCD;
+    display: flex;
+    position: absolute; 
+    bottom: 0;
+}  */
 .stand {
     width: 0;
     height: 0;
@@ -210,7 +214,7 @@ text-transform: uppercase;
     border-top: 100px solid #333; 
     position: absolute;
     transform: rotate(180deg);
-    margin-top: -33px;
+    margin-top: -32px;
     /* z-index: -1; */
     left: calc(50% - 50px);
    
@@ -258,4 +262,23 @@ text-transform: uppercase;
 }
 .navy{
     background: linear-gradient(to bottom, #000080 0%, #ffffff 100%);
+}
+.footer{
+   height: 40px;
+   background:#FFC100 ;
+}
+/*.......................................Index2 css...........*/
+.header
+{
+    
+} .header-box-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.header-box{
+    width: 300px;
+    height: 100px;
+    background-color: #A1C398;
 }
